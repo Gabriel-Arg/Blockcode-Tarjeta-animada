@@ -1,0 +1,35 @@
+body {
+    background-color: #263237;
+}
+
+.card {
+    margin-top: 10%;
+    margin-left: 35%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia;
+}
+
+.card-body {
+    margin-top: 50%;
+}
+
+.foto {
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 200px;
+    margin-left: -100px;
+    margin-top: -100px;
+    border-radius: 50%;
+    border: 8px solid rgb(102, 56, 56);
+    filter: grayscale(90%);
+    transition: all 800ms;
+}
+
+.foto:hover {
+    transform: rotate(360deg);
+    filter: grayscale(0%);
+    border: 8px solid rgb(25, 142, 136);
+    box-shadow: 10px 10px 20px rgb(99, 98, 98);
+}
